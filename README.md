@@ -35,9 +35,9 @@ go run cmd/main.go
 ```
 
 > Init the sse connection with an "keep-alive" header
-- GET the endpoint `http://localhost:1323/event`
+- GET the endpoint `http://localhost:1323/listener`
 > Then when you hit the desired endpoint, we can compute the message
-- GET on the endpoint `http://localhost:1323/post-event`
+- GET on the endpoint `http://localhost:1323/event`
 
 > Cleanned logs
 

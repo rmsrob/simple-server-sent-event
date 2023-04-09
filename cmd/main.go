@@ -18,8 +18,8 @@ func main() {
 	msgChan := make(chan string)
 
 	// Routes
-	e.GET("/event", handler.Event(msgChan))
-	e.GET("/post-event", handler.GetPosted(msgChan))
+	e.GET("/listener", handler.Listener(msgChan))
+	e.GET("/event", handler.GetEvent(msgChan))
 
 	// Start server
 	e.Logger.Fatal(e.Start(":1323"))
