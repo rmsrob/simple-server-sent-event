@@ -1,6 +1,5 @@
 ![WIP](https://img.shields.io/badge/status-wip-red)
 
-[![Latest release](https://img.shields.io/github/v/release/rrobrms/simple-server-sent-event)](https://github.com/rrobrms/simple-server-sent-event/releases/latest)
 [![Go Reference](https://pkg.go.dev/badge/github.com/rrobrms/simple-server-sent-event.svg)](https://pkg.go.dev/github.com/rrobrms/simple-server-sent-event)
 [![Go Report Card](https://goreportcard.com/badge/github.com/rrobrms/simple-server-sent-event)](https://goreportcard.com/report/github.com/rrobrms/simple-server-sent-event)
 [![Coverage Status](https://coveralls.io/repos/github/rrobrms/simple-server-sent-event/badge.svg?branch=master)](https://coveralls.io/github/rrobrms/simple-server-sent-event?branch=master)
@@ -13,7 +12,7 @@
 
 # simple-server-sent-event
 
-> Open a SSE connection and get a response message with it's formatted time when hit an endpoint
+> Open a SSE connection and get a response message with its formatted time when hit an endpoint
 
 ## Install
 ### Prerequisite
@@ -22,12 +21,10 @@
 >Required:
 - [Golang V1.20](https://go.dev/doc/install)
 
-
 ```sh
 git clone git@github.com:rrobrms/simple-server-sent-event.git
 cd simple-server-sent-event
 go mod tidy         # to download modules
-forge install       # to download the libs
 ```
 
 
